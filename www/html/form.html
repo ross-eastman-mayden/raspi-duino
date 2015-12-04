@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css" type="text/css">
+    <!--<link name="fonturl.com" rel='stylesheet' type='text/css'>-->
+</head>
+<!--bootstrap-->
+<header>
+    <div class="container">
+        <h1>Sprint-Duino</h1>
+    </div>
+</header>
+<body>
+<!--Use .container for a responsive fixed width container.-->
+<div class="container">
+    <div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;">
+        <noscript>
+            <div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(0, 0, 0);">
+                <a href="" style="text-decoration: none; font-size: 13px; color: rgb(2, 45, 255);"> </a>
+            </div>
+        </noscript>
+        <script type="text/javascript" src="http://localtimes.info/clock.php?&cp1_Hex=022dff&cp2_Hex=000000&cp3_Hex=000000&fwdt=200&ham=0&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1004">
+
+        </script>
+    </div>
+    <!--Use .container-fluid for a full width container, spanning the entire width of your viewport.-->
+    <!--<div class="container-fluid">-->
+    <form method="post" action="../php/formProcessor.php">
+        <div class="form-group">
+            <label for="input1">Display Text</label>
+            <input type="text" class="form-control" id="input1" placeholder="Display Text">
+        </div>
+
+        <div class="radio">
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Display Option one
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                    Display Option two
+                </label>
+            </div>
+        </div>
+
+        <p>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        </p>
+    </form>
+
+</div>
+<!--</div>-->
+</body>
+
+<footer>
+    <div class="container">
+        Mayden Multi-Purpose Sprint Thing
+    </div>
+</footer>
+
+</html>
